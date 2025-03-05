@@ -25,8 +25,9 @@ describe("index.js", () => {
   })
 
   it("add arrow function takes two parameters and adds them together", () => {
-    let a = 3
+   let a = 3
     let b = 4
     expect(add(a,b)).to.equal(a+b)
   })
 })
+ 
